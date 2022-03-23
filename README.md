@@ -1,7 +1,7 @@
 ### Based on node.js automation module introduction
 
 ```js
-const requireContext = require('sample-require-context')
+const requireContext = require('simple-require-context')
 
 const context = requireContext('./', false, /\.js$/)
 console.log(context.keys())
